@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+
+}
+
+.palindrome {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(90deg, red, purple);
+  height: 100vh;
+
+  h3{
+color: rgb(202, 164, 164);
+  }
+}
+
+.inputs {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#input {
+  padding: 8px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  color: white;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.144);
+
+  ::placeholder{
+    color: blueviolet;
+  }
+}
+
+button{
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
